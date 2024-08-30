@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <h1>Calculator</h1>
+    <div class="calculator">
+       
+        <div class="light">
+        </div>
+        <button class="light-button">ON/OFF</button>
+        <div id="display">
+            <!-- <span id="display">0</span>
+            <span id="previous-display"></span> -->
+        </div>
+        <div class="buttons">
+<button onclick="appendNumber('7')">7</button>
+<button onclick="appendNumber ('8')">8</button>
+<button onclick="appendNumber ('9')">9</button>
+<button onclick="chooseOperation ('/')">/</button>
+
+<button onclick="appendNumber ('4')">4</button>
+<button onclick="appendNumber ('5')">5</button>
+<button onclick="appendNumber ('6')">6</button>
+<button onclick="chooseOperation ('*')">*</button>
+
+<button onclick="appendNumber('1')">1</button>
+<button onclick="appendNumber('2')" >2</button>
+<button onclick="appendNumber('3')">3</button>
+<button onclick="chooseOperation('-')">-</button>
+
+<button onclick="appendNumber('0')">0</button>
+<button class="clear-btn" onclick="clearDisplay()">C</button>
+<button class="compute-btn" onclick="compute()">=</button>
+<button onclick="chooseOperation('+')">+</button>
+
+        </div>
+    </div>
+</div>
+<!-- <script src="cal.js"></script> -->
+<script src="calculator.js"></script>
+</body>
+</html>
